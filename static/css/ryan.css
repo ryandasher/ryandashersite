@@ -30,6 +30,10 @@ p {
 	font-weight: 100;
 }
 
+.centered {
+	text-align: center;
+}
+
 .small {
 	font-size: 11px;
 }
@@ -38,11 +42,12 @@ p {
 	font-weight: 400;
 }
 
+h1 {
+	font-size: 32px;
+}
+
 h3 {
 	font-size: 24px;
-	font-weight: 900;
-	padding-top: 20px;
-	text-align: center;
 }
 
 /* Image Styles */
@@ -53,14 +58,16 @@ img.rounded {
 
 /* Section Styles */
 
+section, footer {
+	padding-top: 20px;
+}
+
 section#about {
 	padding-top: 20px;
-	text-align: center;
 }
 
 footer {
 	padding-top: 20px;
-	text-align: center;
 }
 
 /* Styles for larger screens */
@@ -70,3 +77,6 @@ footer {
 		max-width: 600px;
 	}
 }
+
+/* Pizza project-specific styles */
+/* Coming Soon */
