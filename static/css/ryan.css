@@ -2,7 +2,9 @@
 
 body {
 	background-color: #FAFAFA;
-	font-family: 'Roboto', sans-serif;
+	font-family: Georgia;
+	letter-spacing: .5px;
+	line-height: 22px;
 	margin: 0 auto;
 	padding: 0 30px;
 }
@@ -19,15 +21,10 @@ li {
 
 a {
 	color: #A1D490;
-	font-weight: 400;
 }
 
 a:hover {
 	opacity: .5;
-}
-
-p {
-	font-weight: 100;
 }
 
 .centered {
@@ -36,10 +33,6 @@ p {
 
 .small {
 	font-size: 11px;
-}
-
-.thick {
-	font-weight: 400;
 }
 
 h1 {
