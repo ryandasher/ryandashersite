@@ -1,4 +1,4 @@
-/* Generic Styles */
+/* Generic styles. */
 
 body {
 	background-color: #FAFAFA;
@@ -17,7 +17,7 @@ li {
 	list-style-type: none;
 }
 
-/* Font Styles */
+/* Font styles. */
 
 a {
 	color: #A1D490;
@@ -36,20 +36,37 @@ a:hover {
 }
 
 h1 {
-	font-size: 32px;
+	font-size: 24px;
+	line-height: 26px;
 }
 
 h3 {
 	font-size: 24px;
 }
 
-/* Image Styles */
-
-img.rounded {
-	border-radius: 100px;
+p {
+	font-size: 14px;
+	line-height: 18px;
 }
 
-/* Section Styles */
+/* Image styles. */
+
+img.rounded {
+	border-radius: 60px;
+	height: 120px;
+	width: auto;
+}
+
+
+/* Row and column styles. */
+
+.sm-col-1 {
+	box-sizing: border-box;
+	padding-bottom: 10px;
+	width: 100%;
+}
+
+/* Section styles. */
 
 section, footer {
 	padding-top: 20px;
@@ -59,17 +76,37 @@ section:first-of-type {
 	padding-top: 0px;
 }
 
+section#about, section#projects {
+	margin: 0 auto;
+	max-width: 800px;
+}
+
 footer {
 	padding-top: 20px;
 }
 
-/* Styles for larger screens */
+/* Styles for larger screens. */
 
-@media only screen and (min-width: 600px) {
-	body {
-		max-width: 600px;
+@media only screen and (min-width: 767px) {
+	h1 {
+		font-size: 32px;
+		line-height: 36px;
+	}
+
+	p {
+		font-size: 16px;
+		line-height: 22px
+	}
+
+	.med-col-2 {
+		float: left;
+		padding-left: 15px;
+		padding-right: 15px;
+		width: 50%;
+	}
+
+	img.large-rounded {
+		border-radius: 100px;
+		height: auto;
 	}
 }
-
-/* Pizza project-specific styles */
-/* Coming Soon */
