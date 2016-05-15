@@ -17,6 +17,10 @@ li {
 	list-style-type: none;
 }
 
+.hidden {
+	display: none;
+}
+
 /* Font styles. */
 
 a {
